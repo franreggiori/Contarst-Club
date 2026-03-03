@@ -22,33 +22,38 @@ export default function HomePage() {
       </section>
 
       <section className="space-y-4">
-        <div className="flex items-end justify-between">
-          <h2 className="text-2xl font-semibold">Método: Heat · Cold · Reset</h2>
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="text-2xl font-semibold">Método: Heat · Cold · Reset</h2>
+            <p className="mt-1 max-w-2xl text-sm text-white/65">
+              Un protocolo simple y progresivo: activás el cuerpo con calor, entrenás control en frío y cerrás con recuperación guiada.
+            </p>
+          </div>
           <Link href="/metodo" className="text-sm text-cold">Ver método completo →</Link>
         </div>
 
         <div className="grid gap-4 md:grid-cols-3">
           <article className="card overflow-hidden p-0">
-            <Image src="/images/metodo-1.png" alt="Heat: ritual guiado en sauna" width={1200} height={800} className="h-full w-full object-cover" />
+            <Image src="/images/metodo-1.png" alt="Heat: ritual guiado en sauna" width={1200} height={800} sizes="(min-width: 768px) 33vw, 100vw" className="h-full w-full object-cover" />
             <div className="border-t border-white/10 p-4">
               <h3 className="text-lg font-semibold">Heat</h3>
-              <p className="text-sm text-white/70">Calor guiado para activar foco, respiración y resiliencia.</p>
+              <p className="text-sm text-white/70">Exposición controlada en sauna para activar foco, respiración y tolerancia al esfuerzo.</p>
             </div>
           </article>
 
           <article className="card overflow-hidden p-0">
-            <Image src="/images/metodo-2.png" alt="Cold: inmersión en frío" width={1200} height={800} className="h-full w-full object-cover" />
+            <Image src="/images/metodo-2.png" alt="Cold: inmersión en frío" width={1200} height={800} sizes="(min-width: 768px) 33vw, 100vw" className="h-full w-full object-cover" />
             <div className="border-t border-white/10 p-4">
               <h3 className="text-lg font-semibold">Cold</h3>
-              <p className="text-sm text-white/70">Exposición al frío asistida para entrenar control y recuperación.</p>
+              <p className="text-sm text-white/70">Cold plunge asistido con coaching respiratorio y tiempos progresivos.</p>
             </div>
           </article>
 
           <article className="card overflow-hidden p-0">
-            <Image src="/images/metodo-3.png" alt="Reset: recovery lounge" width={1200} height={800} className="h-full w-full object-cover" />
+            <Image src="/images/metodo-3.png" alt="Reset: recovery lounge" width={1200} height={800} sizes="(min-width: 768px) 33vw, 100vw" className="h-full w-full object-cover" />
             <div className="border-t border-white/10 p-4">
               <h3 className="text-lg font-semibold">Reset</h3>
-              <p className="text-sm text-white/70">Cierre calmado para estabilizar sistema nervioso y energía.</p>
+              <p className="text-sm text-white/70">Recovery para estabilizar sistema nervioso y cerrar el ciclo con claridad.</p>
             </div>
           </article>
         </div>
