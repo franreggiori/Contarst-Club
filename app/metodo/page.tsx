@@ -20,13 +20,13 @@ export default function MetodoPage() {
 
       <section className="container grid gap-4 md:grid-cols-3">
         <article className="card overflow-hidden p-0">
-          <Image src="/images/metodo-1.svg" alt="Breathwork guiado en sauna" width={1200} height={800} className="h-full w-full object-cover" />
+          <Image src="/images/metodo-1.png" alt="Breathwork guiado en sauna" width={1200} height={800} className="h-full w-full object-cover" />
         </article>
         <article className="card overflow-hidden p-0">
-          <Image src="/images/metodo-2.svg" alt="Ritual grupal de cold plunge" width={1200} height={800} className="h-full w-full object-cover" />
+          <Image src="/images/metodo-2.png" alt="Ritual grupal de cold plunge" width={1200} height={800} className="h-full w-full object-cover" />
         </article>
         <article className="card overflow-hidden p-0">
-          <Image src="/images/metodo-3.svg" alt="Recovery lounge premium" width={1200} height={800} className="h-full w-full object-cover" />
+          <Image src="/images/metodo-3.png" alt="Recovery lounge premium" width={1200} height={800} className="h-full w-full object-cover" />
         </article>
       </section>
 

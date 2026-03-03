@@ -29,7 +29,7 @@ export default function HomePage() {
 
         <div className="grid gap-4 md:grid-cols-3">
           <article className="card overflow-hidden p-0">
-            <Image src="/images/metodo-1.svg" alt="Heat: ritual guiado en sauna" width={1200} height={800} className="h-full w-full object-cover" />
+            <Image src="/images/metodo-1.png" alt="Heat: ritual guiado en sauna" width={1200} height={800} className="h-full w-full object-cover" />
             <div className="border-t border-white/10 p-4">
               <h3 className="text-lg font-semibold">Heat</h3>
               <p className="text-sm text-white/70">Calor guiado para activar foco, respiración y resiliencia.</p>
@@ -37,7 +37,7 @@ export default function HomePage() {
           </article>
 
           <article className="card overflow-hidden p-0">
-            <Image src="/images/metodo-2.svg" alt="Cold: inmersión en frío" width={1200} height={800} className="h-full w-full object-cover" />
+            <Image src="/images/metodo-2.png" alt="Cold: inmersión en frío" width={1200} height={800} className="h-full w-full object-cover" />
             <div className="border-t border-white/10 p-4">
               <h3 className="text-lg font-semibold">Cold</h3>
               <p className="text-sm text-white/70">Exposición al frío asistida para entrenar control y recuperación.</p>
@@ -45,7 +45,7 @@ export default function HomePage() {
           </article>
 
           <article className="card overflow-hidden p-0">
-            <Image src="/images/metodo-3.svg" alt="Reset: recovery lounge" width={1200} height={800} className="h-full w-full object-cover" />
+            <Image src="/images/metodo-3.png" alt="Reset: recovery lounge" width={1200} height={800} className="h-full w-full object-cover" />
             <div className="border-t border-white/10 p-4">
               <h3 className="text-lg font-semibold">Reset</h3>
               <p className="text-sm text-white/70">Cierre calmado para estabilizar sistema nervioso y energía.</p>
