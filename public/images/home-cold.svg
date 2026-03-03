@@ -1,0 +1,12 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="900" fill="#0B0F17"/>
+<rect width="1200" height="900" fill="url(#paint0_radial)"/>
+<text x="80" y="130" fill="#DDF1FF" font-size="60" font-family="Arial, sans-serif">Cold Plunge Contrast</text>
+<text x="80" y="190" fill="#B7DFFF" font-size="28" font-family="Arial, sans-serif">Placeholder visual · cool atmosphere</text>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 400) rotate(108) scale(620 860)">
+<stop stop-color="#3DA5FF" stop-opacity="0.6"/>
+<stop offset="1" stop-color="#0B0F17" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
