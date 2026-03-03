@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { Suspense, useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { locations } from '@/data/locations';
 import { services } from '@/data/services';
@@ -27,7 +27,7 @@ const initialForm: FormState = {
   firstTime: true
 };
 
-export default function ReservarPage() {
+function ReservarPageContent() {
   const search = useSearchParams();
   const [step, setStep] = useState(1);
   const [form, setForm] = useState<FormState>(initialForm);
@@ -211,5 +211,13 @@ export default function ReservarPage() {
 
       {step > 1 && !confirmed && <button className="button-secondary" onClick={() => setStep(step - 1)}>Volver</button>}
     </div>
+  );
+}
+
+export default function ReservarPage() {
+  return (
+    <Suspense fallback={<div className="container"><p className="text-white/70">Cargando agenda...</p></div>}>
+      <ReservarPageContent />
+    </Suspense>
   );
 }
