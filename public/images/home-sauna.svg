@@ -1,0 +1,12 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="900" fill="#130F14"/>
+<rect width="1200" height="900" fill="url(#paint0_radial)"/>
+<text x="80" y="130" fill="#F7E6DE" font-size="60" font-family="Arial, sans-serif">Guided Sauna Ritual</text>
+<text x="80" y="190" fill="#E7C9BD" font-size="28" font-family="Arial, sans-serif">Placeholder visual · warm atmosphere</text>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 420) rotate(70) scale(600 800)">
+<stop stop-color="#FF6A3D" stop-opacity="0.55"/>
+<stop offset="1" stop-color="#130F14" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
