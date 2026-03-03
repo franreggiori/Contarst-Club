@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { PageHeader } from '@/components/page-header';
 
 export default function MetodoPage() {
@@ -16,6 +17,19 @@ export default function MetodoPage() {
           </article>
         ))}
       </section>
+
+      <section className="container grid gap-4 md:grid-cols-3">
+        <article className="card overflow-hidden p-0">
+          <Image src="/images/metodo-1.svg" alt="Breathwork guiado en sauna" width={1200} height={800} className="h-full w-full object-cover" />
+        </article>
+        <article className="card overflow-hidden p-0">
+          <Image src="/images/metodo-2.svg" alt="Ritual grupal de cold plunge" width={1200} height={800} className="h-full w-full object-cover" />
+        </article>
+        <article className="card overflow-hidden p-0">
+          <Image src="/images/metodo-3.svg" alt="Recovery lounge premium" width={1200} height={800} className="h-full w-full object-cover" />
+        </article>
+      </section>
+
       <section className="container card">
         <h2 className="mb-3 text-2xl font-semibold">Seguridad</h2>
         <p className="mb-3 text-white/70">Trabajamos con protocolos estandarizados, facilitación capacitada y screening básico previo a cada sesión.</p>

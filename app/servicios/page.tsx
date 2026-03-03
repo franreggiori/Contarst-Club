@@ -5,7 +5,7 @@ import { services } from '@/data/services';
 export default function ServiciosPage() {
   return (
     <div>
-      <PageHeader title="Servicios" subtitle="Catálogo estandarizado para operar en red multi-sede y franquicia." />
+      <PageHeader title="Servicios" subtitle="Catálogo estandarizado para una operación premium y consistente." />
       <section className="container grid gap-4 md:grid-cols-2">
         {services.map((service) => (
           <article key={service.id} className="card">

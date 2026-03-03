@@ -5,8 +5,8 @@ import { locations } from '@/data/locations';
 export default function SedesPage() {
   return (
     <div>
-      <PageHeader title="Sedes" subtitle="Operación estandarizada en ubicaciones premium urbanas." />
-      <section className="container grid gap-4 md:grid-cols-3">
+      <PageHeader title="Sedes" subtitle="Ubicación activa con operación premium estandarizada." />
+      <section className="container grid gap-4 md:grid-cols-2">
         {locations.map((loc) => (
           <article key={loc.id} className="card">
             <h2 className="mb-1 text-xl font-semibold">{loc.name}</h2>
